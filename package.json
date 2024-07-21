@@ -1,0 +1,31 @@
+{
+  "name": "be-crowdfunding",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/main.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node src/main.js",
+    "start:dev": "nodemon src/main.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@thirdweb-dev/chains": "^0.1.48",
+    "@thirdweb-dev/sdk": "^3.10.56",
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "ethers": "^5.7.2",
+    "express": "^4.18.2",
+    "fast-safe-stringify": "^2.1.1",
+    "moment": "^2.29.4",
+    "morgan": "^1.10.0",
+    "node-schedule": "^2.1.1",
+    "redis": "^4.6.8",
+    "statuses": "^2.0.1",
+    "winston": "^3.10.0",
+    "winston-daily-rotate-file": "^4.7.1"
+  }
+}
